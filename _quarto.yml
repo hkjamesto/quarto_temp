@@ -7,7 +7,7 @@ project:
 website:
   title: "MUSA 550"
   page-footer:
-    left: "delmelle@gmail.com"
+    left: "tojames@sas.upenn.edu"
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
 
   sidebar:
@@ -23,7 +23,7 @@ website:
         text: "MUSA 550 GitHub"
       - icon: twitter
         href: https://twitter.com/ericdelmelle
-        text: "Eric Delmelle Twitter"
+        text: "I don't have Twitter"
     style: "docked"
     search: true
     collapse-level: 2
