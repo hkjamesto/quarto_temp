@@ -1,5 +1,5 @@
 ---
-title: "MUSA 550: Final Project"
+title: "MUSA 550: Final Project (James To)"
 subtitle: "Spatio-temporal Crime Trend Forecasting with SARIMA Models"
 ---
 
