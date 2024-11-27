@@ -47,7 +47,7 @@
     "href": "analysis/1-python-code-blocks.html",
     "title": "Python code blocks",
     "section": "",
-    "text": "This is an example from the Quarto documentation that shows how to mix executable Python code blocks into a markdown file in a “Quarto markdown” .qmd file.\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+    "text": "This is an example from the Quarto documentation that shows how to mix executable Python code blocks into a markdown file in a “Quarto markdown” .qmd file.\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
     "objectID": "analysis/3-altair-hvplot.html",
@@ -87,7 +87,10 @@
     "href": "analysis/index.html",
     "title": "Analysis",
     "section": "",
-    "text": "Analysis\nThis section includes examples of technical analysis done using Jupyter notebooks. Each sub-section highlights different types of analyses and visualizations. In particular, it highlights that we can easily publish interactive visualizations produced with packages such as hvPlot, altair, or Folium, without losing any of the interactive features.\nOn this page, you might want to share more introductory or background information about the analyses to help guide the reader."
+    "text": "Analysis\nThis section includes examples of technical analysis done using Jupyter notebooks. Each sub-section highlights different types of analyses and visualizations. In particular, it highlights that we can easily publish interactive visualizations produced with packages such as hvPlot, altair, or Folium, without losing any of the interactive features.\nOn this page, you might want to share more introductory or background information about the analyses to help guide the reader.",
+    "crumbs": [
+      "Analysis"
+    ]
   },
   {
     "objectID": "analysis/2-static-images.html",
@@ -114,9 +117,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "MUSA 550: Final Project Template",
+    "title": "MUSA 550: Final Project",
     "section": "",
-    "text": "We can create beautiful websites that describe complex technical analyses in Python using Quarto and deploy them online using GitHub Pages. This combination of tools is a really powerful way to create and share your work. This website is a demo that is meant to be used to create your own Quarto website for the final project in MUSA 550.\nQuarto is a relatively new tool, but is becoming popular quickly. It’s a successor to the Rmarkdown ecosystem that combines functionality into a single tool and also extends its computation power to other languages. Most importantly for us, Quarto supports executing Python code, allowing us to convert Jupyter notebooks to HTML and share them online.\n\n\n\n\n\n\nImportant\n\n\n\nThis template site, including the layout it uses, is just a suggested place to start! For your final project, you’re welcome (and encouraged) to make as many changes as you like to best fit your project.",
+    "text": "We can create beautiful websites that describe complex technical analyses in Python using Quarto and deploy them online using GitHub Pages. This combination of tools is a really powerful way to create and share your work. This website is a demo that is meant to be used to create your own Quarto website for the final project in MUSA 550.\nQuarto is a relatively new tool, but is becoming popular quickly. It’s a successor to the Rmarkdown ecosystem that combines functionality into a single tool and also extends its computation power to other languages. Most importantly for us, Quarto supports executing Python code, allowing us to convert Jupyter notebooks to HTML and share them online.\n\n\n\n\n\n\nImportant\n\n\n\nCrime exhibits seasonality. Crime hotspots tend to be persistent. We want to visualize and forecast the spatial and time trends of different crimes using seasonal autoregressive integrated moving average (SARIMA) models.",
     "crumbs": [
       "Welcome"
     ]
@@ -124,9 +127,9 @@
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
-    "title": "MUSA 550: Final Project Template",
+    "title": "MUSA 550: Final Project",
     "section": "",
-    "text": "We can create beautiful websites that describe complex technical analyses in Python using Quarto and deploy them online using GitHub Pages. This combination of tools is a really powerful way to create and share your work. This website is a demo that is meant to be used to create your own Quarto website for the final project in MUSA 550.\nQuarto is a relatively new tool, but is becoming popular quickly. It’s a successor to the Rmarkdown ecosystem that combines functionality into a single tool and also extends its computation power to other languages. Most importantly for us, Quarto supports executing Python code, allowing us to convert Jupyter notebooks to HTML and share them online.\n\n\n\n\n\n\nImportant\n\n\n\nThis template site, including the layout it uses, is just a suggested place to start! For your final project, you’re welcome (and encouraged) to make as many changes as you like to best fit your project.",
+    "text": "We can create beautiful websites that describe complex technical analyses in Python using Quarto and deploy them online using GitHub Pages. This combination of tools is a really powerful way to create and share your work. This website is a demo that is meant to be used to create your own Quarto website for the final project in MUSA 550.\nQuarto is a relatively new tool, but is becoming popular quickly. It’s a successor to the Rmarkdown ecosystem that combines functionality into a single tool and also extends its computation power to other languages. Most importantly for us, Quarto supports executing Python code, allowing us to convert Jupyter notebooks to HTML and share them online.\n\n\n\n\n\n\nImportant\n\n\n\nCrime exhibits seasonality. Crime hotspots tend to be persistent. We want to visualize and forecast the spatial and time trends of different crimes using seasonal autoregressive integrated moving average (SARIMA) models.",
     "crumbs": [
       "Welcome"
     ]
